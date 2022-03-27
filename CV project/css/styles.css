@@ -1,0 +1,129 @@
+body {
+  margin-right: 250px;
+  margin-left: 250px;
+  background-color: #f1f1f1;
+  color: #0f141e;
+  font-size: 16px;
+  font-weight: normal;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: blue;
+}
+
+a:visited {
+  color: grey;
+}
+
+.avatar {
+  float: left;
+  width: 250px;
+  border-radius: 100%;
+}
+
+.info {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  flex-direction: column;
+}
+
+.header {
+  height: 300px;
+  color: #2c2a2a;
+  font-size: 1.5rem;
+}  
+
+
+.personal_info{
+  display: inline-block;
+  margin-left: 50px;
+}
+
+.social {
+  font-weight: bold;
+}
+
+.card {
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.bg-pink{
+  background: #ffe5e5;
+}
+
+.bg-green{
+  background: #e5ffe7;
+}
+
+.bg-yellow{
+  background: #fff9dc;
+}
+
+li{
+  margin-bottom: 5px;
+}
+
+td{
+  padding-right: 20px;
+  padding-bottom: 5px;
+}
+
+tr{
+  justify-content: space-between;
+}
+
+#h1_footer{
+  text-align: center;
+}
+
+.inputs{
+  display: flex ;
+  justify-content: space-between;
+}
+
+input{
+  width: 48%;
+  padding: 10px;
+  margin: 8px 0;
+  border: none;
+  border-bottom: 2px solid rgb(27, 25, 25);
+}
+
+textarea {
+  margin: 20px 0 10px;
+  width: 100%;
+  height: 75px;
+  padding: 12px 20px;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+  border: none;
+  border-bottom: 2px solid rgb(27, 25, 25);
+}
+
+button {
+  background-color: #080808; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
